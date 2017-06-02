@@ -15,7 +15,7 @@ Materi yang di sampaikan adalah ilmu yang di serap secara otodidak, maka dari it
 1. Dilarang mengejek, menghina, atau membuat perasaan member lain tidak enak saat member tersebut mengaku tidak paham. Ayo kita bantu dia, setidaknya sampai dia paham.
 2. Dilarang meragukan diri sendiri dengan berkata: “itu terlalu sulit buat saya”, dsb. Karena, melupakan ‘dia’ lebih sulit dari bahasa pemrograman apapun!
 3. Materi yang di sampaikan boleh di interupsi, di kritik, atau di benarkan jika dirasa kurang pas.
-4. Penyampaian materi akan di sampaikan minimal satu sub-bab setiap harinya pada jam 17.00 WIB, jika telat mohon di maklumi karena saya pulang kerja juga jam 17.00
+4. Penyampaian materi akan di sampaikan minimal satu sub-bab setiap harinya pada jam 17.00 WIB, jika telat mohon di maklumi karena saya pulang kerja juga jam 17.00 WIB.
 
 ## Index:
 
@@ -137,7 +137,7 @@ Sedangkan Python 3.x
 	print ("ini digunakan untuk ", end="")
 	print ("mencetak satu baris")
 
-jika memaksa tidak menggunakan kurung pada contoh di bawah ini:
+Jika memaksa tidak menggunakan kurung pada contoh di bawah ini:
 
 	print "python 3 print tanpa kurung"
 
@@ -145,7 +145,7 @@ Maka hasilnya akan error.
 
 Itu, baru fungsi print. Masih banyak perubahan yang mendasar antara Python 2.x dan 3.x.
 
-Lalu, versi mana yang harus di pilih ? Untuk pembuatan aplikasi terbaru, tentu saja versi 3.x. Walaupun ada beberapa library (pustaka) yang belum tersedia pada versi 3.x, tetapi anda jangan khawatir karena sekarang hampir semua library di situs https://pypi.python.org/pypi sudah mendukung versi 3.x.
+Lalu, versi mana yang harus di pilih ? Untuk pembuatan proyek aplikasi baru, tentu saja disarankan menggunakan versi 3.x. Walaupun ada beberapa library (pustaka) yang belum tersedia pada versi 3.x, tetapi anda jangan khawatir karena sekarang hampir semua library di situs https://pypi.python.org/pypi sudah mendukung versi 3.x.
 
 Ayo kita install versi Python 3.x
 Untuk keluarga debian dan turunannya gunakan:
@@ -157,20 +157,63 @@ Silahkan jika ada pertanyaan, atau ada yang salah mohon di benarkan :)
 
 #### Program Pertama Anda
 
+Pada kesempatan kali ini, kita akan membuat program pertama kita di Python. Pastikan Python yang terpasang pada sistem anda adalah versi 3.5 ke atas. Untuk memeriksa versi Python yang terpasang, gunakan perintah `python3 --version`.
+
+Buka text editor favorit anda, seperti gedit, sublime, nano, atau vim. Kemudian ketik kode berikut pada text editor, biasakan untuk mengetik ulang setiap kode pada tutorial. Jangan hanya copy-paste, seperti kata pepatah: bisa karena terbiasa.
+
+	#Sapa Dunia
+	print ("Hallo Dunia !")
+	
+Kemudian, simpan dengan nama `sapa.py`. Untuk menjalankan program anda, ketik perintah `python3 sapa.py` pada terminal. Jika tidak ada pesan error, maka program anda akan mencetak teks `Hallo Dunia !` pada terminal. Selamat, anda berhasil membuat program pertama anda dengan bahasa pemrograman Python.
+
+Selain dengan cara di atas, anda juga dapat menjalankan perintah secara langsung melalui Python Console. Untuk menjalankan python console, cukup ketik perintah `python3` pada terminal dan selanjutnya anda bisa memberikan perintah secara langsung melalui console tersebut.
+
+#### Operasi Sederhana
+
+Python mempunyai kemampuan untuk melakukan perhitungan matematika, untuk mencobanya silahkan masuk python console dan masukan perintah berikut 
+
+	>>>10 + 10
+	20
+	>>>10 + 2 - 4
+	8
+
+Catatan: Pada python console, kode yang kita masukan di identifikasi dengan tanda `>>>` dan `...`.
+
+Selain penambahan dan pengurangan, python juga mendukung operasi perkalian dan pembagian. Tanda bintang `*` untuk perkalian dan garis miring `/` untuk pembagian. Gunakan tanda kurung `(...)` untuk menentukan operasi yang di hitung terlebih dahulu.
+
+	>>>5 * (2+1)
+	15
+	>>>20 / 5
+	4.0
+
+Catatan: Setiap operasi pembagian, maka keluaran yang di hasilkan selalu bertipe `float`. Selanjutnya, akan di jelaskan pada sesi Tipe Data.
+
+Pada python, tanda minus pada awal bilangan menunjukan bahwa bilangan tersebut adalah bilangan negatif. Tanda plus juga bisa di berikan pada awal bilangan untuk menunjukan bahwa bilangan tersebut adalah bilangan positif, tetapi hal tersebut dirasa percuma karena tidak memberikan efek apapun, kecuali nilai keterbacaan kode.
+
+	>>>-10
+	-10
+	>>>(-5) * (-10 + 3)
+	35
+
+Error juga bisa terjadi pada operasi perhitungan di python, contohnya adalah "habis dibagi nol" atau Divided by Zero.
+
+	>>>11/0
+	Traceback (most recent call last):
+	File "<stdin>", line 1, in <module>
+	ZeroDivisionError: division by zero
+	
+Hal ini terjadi karena tidak ada jawaban untuk perhitungan tersebut. Untuk menghindari kesalahan ini, selanjutya akan di bahas pada bab 4. Exceptions dan Files.
+
+Catatan: Pada python, baris terakhir pada error menunjukan tipe dari error tersebut. Baca pesan kesalahan tersebut dengan cermat, hal ini akan membantu anda untuk memperbaiki program anda. 
+
+#### Tipe Data
+
 -
 
-#### Konsep Dasar - Operasi Sederhana
+#### Variable
 
 -
 
-#### Konsep Dasar - Tipe Data
-
--
-
-#### Konsep Dasar - Variable
-
--
-
-#### Konsep Dasar - In-Place Operator
+#### In-Place Operator
 
 -
