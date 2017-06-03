@@ -103,6 +103,8 @@ Materi yang di sampaikan adalah ilmu yang di serap secara otodidak, maka dari it
 - Implementasi Python
 - Daftar Library Python yang Keren
 
+#### 9. Daftar Pustaka
+
 ---
 
 ## 1. Konsep Dasar 
@@ -242,9 +244,292 @@ Itu sedikit mengenai tipe data pada python. Untuk tipe data yang lain akan di je
 
 #### Variable
 
--
+Variable mempunyai peran yang sangat penting dalam dunia pemrograman. Variabel adalah lokasi memori yang dicadangkan untuk menyimpan nilai-nilai. Ini berarti bahwa ketika Anda membuat sebuah variabel Anda memesan beberapa ruang di memori. Variabel menyimpan data yang dilakukan selama program dieksekusi, yang natinya isi dari variabel tersebut dapat diubah oleh operasi - operasi tertentu pada program yang menggunakan variabel.
+
+Variabel dapat menyimpan berbagai macam tipe data. Pada Python, variabel mempunyai sifat yang dinamis, artinya variabel Python tidak perlu didekralasikan tipe data tertentu dan variabel Python dapat diubah saat program dijalankan.
+
+Penulisan variabel Python sendiri juga memiliki aturan tertentu, yaitu :
+
+1. Karakter pertama harus berupa huruf atau garis bawah/underscore _
+2. Karakter selanjutnya dapat berupa huruf, garis bawah/underscore _ atau angka
+3. Karakter pada nama variabel bersifat sensitif (case-sensitif). Artinya huruf kecil dan huruf besar dibedakan. Sebagai contoh, variabel `NamaDepan` dan `namadepan` adalah variabel yang berbeda.
+
+Untuk mulai membuat variabel di Python caranya sangat mudah, Anda cukup menuliskan variabel lalu mengisinya dengan suatu nilai dengan cara menambahkan tanda sama dengan `=` diikuti dengan nilai yang ingin dimasukan.
+
+Dibawah ini adalah contoh penggunaan variabel dalam bahasa pemrograman Python.
+
+	>>>IniVariable = 10
+	>>>print(IniVariable)
+	10
+	>>>IniVariable = "Aku adalah String !"
+	>>>print(IniVariable)
+	Aku adalah String !
+	>>>angka1 = 10
+	>>>angka2 = 5
+	>>>hasil = angka1 + angka2
+	>>>print(hasil)
+	15
+	>>>NamaDepan = "Markonah"
+	>>>namadepan = "Ani"
+	>>>print(NamaDepan)
+	Markonah
+	>>>print(namadepan)
+	Ani
+	>>>_kata = "Berkata-kata"
+	>>>print(_kata)
+	Berkata-kata
+
 
 #### In-Place Operator
 
 -
 
+---
+
+## 2. Kontrol Struktur
+
+#### Boolean dan Persamaan
+
+-
+
+#### If-Else Statements
+
+-
+
+#### Logika Boolean
+
+-
+
+#### While Loops
+
+-
+
+#### Lists
+
+-
+
+#### List Operations
+
+-
+
+#### List Function
+
+-
+
+#### Range
+
+-
+
+#### For Loops
+
+-
+
+---
+
+## 3. Fungsi dan Modul
+
+#### Code Reuse
+
+-
+
+#### Fungsi
+
+-
+
+#### Argument pada Fungsi
+
+-
+
+#### Pengembalian Nilai pada Fungsi
+
+-
+
+#### Komentar dan Docstrings
+
+-
+
+#### Fungsi sebagai Objek
+
+-
+
+#### Modul
+
+-
+
+#### Pustaka Standar dan PIP
+
+-
+
+---
+
+## 4. Exceptions dan Files
+
+#### Exceptions
+
+-
+
+#### Exception Handling
+
+-
+
+#### finnaly
+
+-
+
+#### Raising Exceptions
+
+-
+
+#### Assertions
+
+-
+
+#### Membuka Files
+
+-
+
+#### Membaca Files
+
+-
+
+#### Menulis Files
+
+-
+
+#### Bekerja dengan Files
+
+-
+
+---
+
+## 5. Lebih dalam dengan Data Tipe
+
+#### None
+
+-
+
+#### Dictionaries
+
+-
+
+#### Dictionaries Functions
+
+-
+
+#### Tuples
+
+-
+
+#### List Slices
+
+-
+
+#### List Comprehensions
+
+-
+
+#### String Formatting
+
+-
+
+#### Beberapa Fungsi yang Berguna
+
+-
+
+---
+
+## 6. Functional Programming
+
+#### Intro
+
+-
+
+#### Lambdas
+
+-
+
+#### Map & Filters
+
+-
+
+#### Generators
+
+-
+
+#### Decorators
+
+-
+
+#### Recursion
+
+-
+
+#### Sets
+
+-
+
+#### Itertools
+
+-
+
+---
+
+## 7. OOP - Object-Oriented Programming
+
+#### Classes
+
+-
+
+#### Inheritance
+
+-
+
+#### Magic Methods & Operator Overloading
+
+-
+
+#### Object Lifecycle
+
+-
+
+#### Data Hiding
+
+-
+
+#### Class & Static Methods
+
+-
+
+#### Properties
+
+-
+
+---
+
+## 8. Serba-serbi Python
+
+#### The Zen of Python
+
+-
+
+#### PEP
+
+-
+
+#### Implementasi Python
+
+-
+
+#### Daftar Library Python yang Keren
+
+-
+
+---
+
+## 9. Daftar Pustaka
+
+Berikut adalah sumber-sumber yang di gunakan untuk menyusun materi ini:
+
+- http://www.belajarpython.com
+- SoloLearn App
+- https://docs.python.org/
