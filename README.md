@@ -264,17 +264,20 @@ Dibawah ini adalah contoh penggunaan variabel dalam bahasa pemrograman Python.
 	>>>IniVariable = "Aku adalah String !"
 	>>>print(IniVariable)
 	Aku adalah String !
+	
 	>>>angka1 = 10
 	>>>angka2 = 5
 	>>>hasil = angka1 + angka2
 	>>>print(hasil)
 	15
+	
 	>>>NamaDepan = "Markonah"
 	>>>namadepan = "Ani"
 	>>>print(NamaDepan)
 	Markonah
 	>>>print(namadepan)
 	Ani
+	
 	>>>_kata = "Berkata-kata"
 	>>>print(_kata)
 	Berkata-kata
@@ -282,8 +285,25 @@ Dibawah ini adalah contoh penggunaan variabel dalam bahasa pemrograman Python.
 
 #### In-Place Operator
 
--
+In-place operators memudahkan anda untuk menulis kode menjadi lebih ringkas  `x = x + 10` menjadi `x += 10`. Selain penambahan, hal ini juga berlaku untuk operasi perhitungan yang lain seperti `+=`, `-=`, `*=`, `/=`, dan `%=`.
 
+	>>>x = 2
+	>>>print(x)
+	2
+	
+	>>>x += 3
+	>>>print(x)
+	5
+	
+Selain operasi pada angka, operator ini juga bisa di gunakan pada tipe data lain. Contohnya pada tipe data `string`.
+	
+	>>>x = "telor"
+	>>>print(x)
+	telor
+	
+	>>>x += "ceplok"
+	>>>print(x)
+	telorceplok
 ---
 
 ## 2. Kontrol Struktur
@@ -531,5 +551,6 @@ Dibawah ini adalah contoh penggunaan variabel dalam bahasa pemrograman Python.
 Berikut adalah sumber-sumber yang di gunakan untuk menyusun materi ini:
 
 - http://www.belajarpython.com
-- SoloLearn App
+- https://www.sololearn.com/
 - https://docs.python.org/
+- 
