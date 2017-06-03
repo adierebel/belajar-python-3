@@ -127,19 +127,19 @@ Berikut adalah bukti bahwa Python 2.x dan 3.x sangat berbeda.
 
 Fungsi Print, pada Python 2.x
 
-	print "tidak menggunakan kurung bisa"
-	print ("menggunakan kurung juga bisa")
+	print "tidak menggunakan tanda kurung bisa"
+	print ("menggunakan tanda kurung juga bisa")
 	Print "ini", ; print "mencetak satu baris"
 
 Sedangkan Python 3.x
 
-	print ("harus menggunakan kurung")
+	print ("harus menggunakan tanda kurung")
 	print ("ini digunakan untuk ", end="")
 	print ("mencetak satu baris")
 
 Jika memaksa tidak menggunakan kurung pada contoh di bawah ini:
 
-	print "python 3 print tanpa kurung"
+	print "python 3 print tanpa tanda kurung"
 
 Maka hasilnya akan error.
 
@@ -208,7 +208,37 @@ Catatan: Pada python, baris terakhir pada error menunjukan tipe dari error terse
 
 #### Tipe Data
 
--
+Pada python, ada beberapa tipe data yang umum di gunakan seperti `string`, `boolean`, `integer`, dan `float`.
+
+`string` adalah tipe data yang menyatakan karakter/kalimat bisa berupa huruf angka, dll (diapit tanda `"` atau `'`). Silahkan masukan tipe data string pada python console.
+
+	>>>"aku adalah string"
+	'aku adalah string"
+	
+Kemudian, ada tipe data `boolean` yang menyatakan benar (`True`) yang bernilai 1, atau salah (`False`) yang bernilai 0. 
+
+	>>>True
+	True
+	>>>False
+	False
+
+Untuk angka, gunakan `integer` yang menyatakan bilangan bulat. 
+
+	>>>10
+	10
+	>>>15
+	15
+	
+Sedangkan `float`, adalah tipe data yang menyatakan bilangan yang mempunyai koma. Contohnya seperti berikut.
+
+	>>>10.5
+	10.5
+	>>>10.0/2
+	5.0
+	>>>7.7 + 2.3
+	10.0
+	
+Itu sedikit mengenai tipe data pada python. Untuk tipe data yang lain akan di jelaskan pada Bab 5. Lebih dalam dengan Data Tipe.
 
 #### Variable
 
@@ -217,3 +247,4 @@ Catatan: Pada python, baris terakhir pada error menunjukan tipe dari error terse
 #### In-Place Operator
 
 -
+
