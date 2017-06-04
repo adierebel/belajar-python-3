@@ -310,7 +310,40 @@ Selain operasi pada angka, operator ini juga bisa di gunakan pada tipe data lain
 
 #### Boolean dan Persamaan
 
--
+Seperti yang sudah di jelaskan pada Bab 1, tipe data `boolean` adalah tipe data yang hanya memiliki dua nilai yaitu `True` dan `False` atau `0` dan `1`. Untuk penulisan `True` dan `False`, huruf pertamanya harus kapital dan tanpa tanda petik. `boolean` juga dapat di hasilkan dari persamaan nilai, contohnya seperti `==` atau sama dengan.
+
+	>>>boolean_kita = True
+	>>>boolean_kita
+	True
+	>>>2 == 3
+	False
+	>>>"aku" == "kamu"
+	False
+	>>>"aku" == "aku"
+	True
+
+Kemudian, selain sama dengan `==` ada juga persamaan `!=` yang akan menghasilkan `True` jika nilai yang di bandingkan tidak sama.
+	
+	>>>1 != 1
+	False
+	>>>"aku" != "kamu"
+	True
+	>>>5 != 10
+	True
+	
+Ada juga persamaan yang khusus membandingkan angka `integer` atau `float`. Yaitu, persamaan 'lebih dari' `>` dan 'kurang dari' `<`.
+
+	>>>7 > 5
+	True
+	>>>10 < 10
+	False
+
+Selain operasi di atas, ada juga persamaan yang membandingkan 'sama dengan atau lebih dari' `>=` dan 'sama dengan atau kurang dari' `<=`.
+
+	 >>>7 <= 8
+	 True
+	 >>>9 >= 9.0
+	 True
 
 #### If-Else Statements
 
