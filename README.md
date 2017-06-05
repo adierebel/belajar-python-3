@@ -347,7 +347,40 @@ Selain operasi di atas, ada juga persamaan yang membandingkan 'sama dengan atau 
 
 #### If-Else Statements
 
--
+`if` di gunakan untuk menjalankan perintah jika suatu persyaratan terpenuhi. Jika hasil kondisi syarat adalah `True` maka kode akan di eksekusi, contohnya seperti berikut ini.
+	
+	>>>if 10 == 10:
+	...	print("Benar")
+
+Anda juga bisa menaruh `if` didalam `if` tanpa batas, contohnya seperti berikut ini.
+
+	>>>nomor = 15
+	>>>if nomor > 10:
+	...	print("Lebih dari 10")
+	...	if nomor <= 50:
+	...		print("Di antara 10 dan 50")
+
+Catatan: Python menggunakan `indentation` atau ruang kosong pada awal kode untuk menentukan blok kodenya, sedangkan bahasa pemrograman lain seperti C, PHP, dan Javascript menggunakan kurung kurawal `{}` untuk menentukan blok kodenya. Hal ini bertujuan untuk memudahkan keterbacaan kode yang kita tulis, penulisan yang mudah, dan tentunya memudahkan kita memperbaiki kode yang error. Gunakan tombol `tab` untuk membuat `indentation`.
+
+Lalu, bagaimana jika kita ingin menjalankan kode saat hasil kondisi syarat adalah `False` atau salah? Dalam hal ini, `else` bisa membantu anda menjalankan kode dalam kondisi tersebut. Contohnya seperti berikut ini.
+
+	>>>kodok = "hewan"
+	>>>if kodok == "manusia":
+	...	print("Kodok adalah Manusia !")
+	...else:
+	...	print("Kodok bukan Manusia !")
+	
+Kemudian, ada juga `elif` atau kependekan dari `else if` yang berfungsi untuk percabangan kondisi. Jadi jika hasil kondisi pada `if` bernilai `False`, maka kondisi syarat pada `elif` akan di eksekusi sampai menemukan nilai `True`. Dan jika tidak di temukan nilai `True`, maka kode didalam `else` yang akan di eksekusi.
+
+	>>>nomor = 15
+	>>>if nomor == 10:
+	...	print("ini nomor 10")
+	...elif nomor == 12:
+	...	print("ini nomor 12")
+	...elif nomor == 15:
+	...	print("ini nomor 15")
+	...else:
+	...	print("ini nomer berapa ya ?")
 
 #### Logika Boolean
 
